@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Domain Name Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -13,17 +13,38 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="bg-image"></div>
+    <div class="row">
+      <div class="container-fluid text-center">
+        <div
+          class="col-10 tracking-in-expand-forward-top fw-bold mt-5 w-auto p-3 m-5 bg-dark border rounded-pill text-white"
+        >
+          <p class="fs-1">
+            Welcome to the almighty Domain Name Generator
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container-fluid text-center tracking-in-expand-forward-top">
+          <label for="domain-select" class="fs-5 fw-bold">
+            Select a domain name from this list:
+          </label>
+          <select id="domain-select">
+            <option value=""></option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container-fluid text-center">
+          <div class="fixed-bottom fs-6 fw-bold p-4 justify-content-between">
+            Are you still curious about this web? Click
+            <a href="https://cutt.ly/25enh4L" target="_blank">here</a> for more.
+          </div>
+        </div>
       </div>
     </div>
+    <script src="/../Jose-Real-Domain-Name-Generator/src/app.js"></script>
   </body>
 </html>

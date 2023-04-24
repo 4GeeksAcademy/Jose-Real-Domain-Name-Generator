@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("./assets/img/africa-g9b6f862d7_1280.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+}
+
+.tracking-in-expand-forward-top {
+  animation: tracking-in-expand-forward-top 1.5s linear both;
+}
+@keyframes tracking-in-expand-forward-top {
+  0% {
+    letter-spacing: -0.2em;
+    transform: translateZ(-700px) translateY(-100px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
